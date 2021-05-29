@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFrameworks>net5.0</TargetFrameworks>
+    <RootNamespace>CG.Caching.Redis</RootNamespace>
+    <Authors>Martin Cook</Authors>
+    <Company>CodeGator</Company>
+    <Description>This package contains Redis extensions for the CG.Cache package.
+
+Platforms supported:
+      .NET 5.x or above</Description>
+    <Copyright>Copyright © 2021 by CodeGator. All rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CodeGator/CG.Caching.Redis</PackageProjectUrl>
+    <PackageTags>cach, Redis, CG.Caching.Redis, CodeGator</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/CodeGator/CG.Caching.Redis</RepositoryUrl>
+    <PackageIcon>packageDefaultIcon-50x50.png</PackageIcon>
+    <Product>CG.Caching.Redis</Product>
+    <PackageIconUrl />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\net5.0\CG.Caching.Redis.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net5.0|AnyCPU'">
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DistributedCacheExtensions.cs" />
+    <Compile Remove="MemoryCacheExtensions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CG.Caching" Version="2021.1.3" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\packageDefaultIcon-50x50.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>
