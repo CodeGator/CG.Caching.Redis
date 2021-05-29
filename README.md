@@ -1,9 +1,9 @@
 # CG.Caching.Redis: 
 ---
-[![Build Status](https://dev.azure.com/codegator/CG.Caching.Redis/_apis/build/status/CodeGator.CG.Caching.Redis?branchName=main)](https://dev.azure.com/codegator/CG.Caching.Redis/_build/latest?definitionId=63&branchName=main)
+[[![Build Status](https://dev.azure.com/codegator/CG.Caching.Redis/_apis/build/status/CodeGator.CG.Caching.Redis?branchName=main)](https://dev.azure.com/codegator/CG.Caching.Redis/_build/latest?definitionId=65&branchName=main)
 [![Github docs](https://img.shields.io/static/v1?label=Documentation&message=online&color=blue)](https://codegator.github.io/CG.Caching.Redis/)
 [![NuGet downloads](https://img.shields.io/nuget/dt/CG.Caching.Redis.svg?style=flat)](https://nuget.org/packages/CG.Caching.Redis)
-![SqlServer DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Caching.Redis/63)
+![SqlServer DevOps coverage](https://img.shields.io/azure-devops/coverage/codegator/CG.Caching.Redis/65)
 [![Github discussion](https://img.shields.io/badge/Discussion-online-blue)](https://github.com/CodeGator/CG.Caching.Redis/discussions)
 
 #### What does it do?
