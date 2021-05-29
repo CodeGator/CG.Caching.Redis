@@ -1,28 +1,3 @@
 ### YamlMime:XRefMap
 sorted: true
-references:
-- uid: CG.Caching
-  name: CG.Caching
-  href: api/CG.Caching.html
-  commentId: N:CG.Caching
-  fullName: CG.Caching
-  nameWithType: CG.Caching
-- uid: CG.Caching.ServiceCollectionExtensions
-  name: ServiceCollectionExtensions
-  href: api/CG.Caching.ServiceCollectionExtensions.html
-  commentId: T:CG.Caching.ServiceCollectionExtensions
-  fullName: CG.Caching.ServiceCollectionExtensions
-  nameWithType: ServiceCollectionExtensions
-- uid: CG.Caching.ServiceCollectionExtensions.AddRedisStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  name: AddRedisStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
-  href: api/CG.Caching.ServiceCollectionExtensions.html#CG_Caching_ServiceCollectionExtensions_AddRedisStrategies_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_Microsoft_Extensions_DependencyInjection_ServiceLifetime_
-  commentId: M:CG.Caching.ServiceCollectionExtensions.AddRedisStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  fullName: CG.Caching.ServiceCollectionExtensions.AddRedisStrategies(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration, Microsoft.Extensions.DependencyInjection.ServiceLifetime)
-  nameWithType: ServiceCollectionExtensions.AddRedisStrategies(IServiceCollection, IConfiguration, ServiceLifetime)
-- uid: CG.Caching.ServiceCollectionExtensions.AddRedisStrategies*
-  name: AddRedisStrategies
-  href: api/CG.Caching.ServiceCollectionExtensions.html#CG_Caching_ServiceCollectionExtensions_AddRedisStrategies_
-  commentId: Overload:CG.Caching.ServiceCollectionExtensions.AddRedisStrategies
-  isSpec: "True"
-  fullName: CG.Caching.ServiceCollectionExtensions.AddRedisStrategies
-  nameWithType: ServiceCollectionExtensions.AddRedisStrategies
+references: []

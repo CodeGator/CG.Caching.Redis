@@ -13,30 +13,6 @@
       "is_incremental": false
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Caching.ServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Caching.ServiceCollectionExtensions.html",
-          "hash": "gaEZZ/htADiZrsSUs3C0q6QOzKUAhTWDuJHOHd15sI4="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/CG.Caching.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/CG.Caching.html",
-          "hash": "I3TQQ693wxFPgoOZeb1dlVbY05N51ALXps4B0gnM3eM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
@@ -49,12 +25,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "b1nwaX63LMIT1cAGmubz8tkyQj/+B+2zoz7WhJWhPiM="
+          "hash": "n+HfZL3mOX8Yn2xm8apoiB7B0XTRnlTmkQuAY2hpJOI="
         }
       },
       "is_incremental": false,
@@ -141,12 +120,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "PhLo1vYQUFmkKcvKk0eIaXaG7iV2meaj7/dHqaxGrrw="
+          "hash": "1m06V1yt52Z6pQKbPvey4blGvilAJy+eUOqdG8Jlfrg="
         }
       },
       "is_incremental": false,
@@ -168,12 +150,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
