@@ -54,9 +54,6 @@ namespace CG.Caching
                 configure = options;
             });
 
-            // Register the wrapper service.
-            serviceCollection.Add<ICache, Cache>(serviceLifetime);
-
             // Return the service collection.
             return serviceCollection;
         }
