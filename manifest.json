@@ -13,27 +13,48 @@
       "is_incremental": false
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Caching.ServiceCollectionExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "qmDz8ga3mWTWm3i5EL3tggh/GfxQ2V0QLhMK74C3Jlk="
+          "relative_path": "api/CG.Caching.ServiceCollectionExtensions.html",
+          "hash": "RB+WR6n+4m/7uRf+PiTy1at4W98/oU0zSW/Dzpq113c="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/CG.Caching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CG.Caching.html",
+          "hash": "7TV2gxROJrS9aSh3BzIeSRMtntK4Td0yW/tmCQY326U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "SMOpn/I9ZbTpw96HrM8zvoubDvarFEF0/ssvhK2toUg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "n+HfZL3mOX8Yn2xm8apoiB7B0XTRnlTmkQuAY2hpJOI="
+          "hash": "b1nwaX63LMIT1cAGmubz8tkyQj/+B+2zoz7WhJWhPiM="
         }
       },
       "is_incremental": false,
@@ -45,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "OgOIdp+68sKjWkO8X7/eMKamv9SPvmhi1lIB7IfCk/4="
+          "hash": "vaq84zuBDKDfPsrosudT6z8YwxF5I5sh5cT7i0RAoco="
         }
       },
       "is_incremental": false,
@@ -113,22 +134,19 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "I17H+FZHkZl0k0cX5LLhifmalQkbQNhrsM1nIRm6IGY="
+          "hash": "AOptYSrvbp6nvw7LTZRnO7H0vS914kGprmyDYhpn2ck="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "1m06V1yt52Z6pQKbPvey4blGvilAJy+eUOqdG8Jlfrg="
+          "hash": "PhLo1vYQUFmkKcvKk0eIaXaG7iV2meaj7/dHqaxGrrw="
         }
       },
       "is_incremental": false,
@@ -150,6 +168,12 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
