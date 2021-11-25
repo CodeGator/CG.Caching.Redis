@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	<TargetFrameworks>net5.0</TargetFrameworks>
+	<TargetFrameworks>net6.0</TargetFrameworks>
     <RootNamespace>CG.Caching.Redis</RootNamespace>
     <Authors>Martin Cook</Authors>
     <Company>CodeGator</Company>
     <Description>This package contains Redis extensions for the CG.Cache package.
 
 Platforms supported:
-      .NET 5.x or above</Description>
-    <Copyright>Copyright © 2021 by CodeGator. All rights reserved.</Copyright>
+      .NET 6.x or above</Description>
+    <Copyright>Copyright © 2021 - 2022 by CodeGator. All rights reserved.</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/CodeGator/CG.Caching.Redis</PackageProjectUrl>
     <PackageTags>cach, Redis, CG.Caching.Redis, CodeGator</PackageTags>
@@ -22,7 +22,7 @@ Platforms supported:
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\net5.0\CG.Caching.Redis.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\net6.0\CG.Caching.Redis.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net5.0|AnyCPU'">
@@ -35,9 +35,9 @@ Platforms supported:
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CG.Caching" Version="2021.2.2" />
+    <PackageReference Include="CG.Caching" Version="2022.1.1" />
     <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.2.0" />
-    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.231">
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.4.244">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
